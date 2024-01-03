@@ -4,6 +4,14 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <section className={styles.bannerMain}>
+        <div className={styles.containerTextBannerMain}>
+          <h2>Desenvolvedor Fullstack e Arquiteto de Soluções</h2>
+          <p className={styles.animTypewriter}>Crio e Desenvolvo as Soluções</p>
+        </div>
+
+        <img src='https://github.com/victor-magaldi.png'/>
+      </section>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

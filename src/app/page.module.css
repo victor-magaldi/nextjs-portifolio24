@@ -1,12 +1,50 @@
+
 .main {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 0;
   min-height: 100vh;
 }
+.bannerMain{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #283d3e, #48586f);;
+}
+.containerTextBannerMain h2,
+.containerTextBannerMain p{
+  color: #d62e2e;
+  font-weight: bold;
+}
+.containerTextBannerMain p{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
 
+/* Animation */
+.animTypewriter{
+  animation: typewriter 4s steps(44) 1s infinite normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
 .description {
   display: inherit;
   justify-content: inherit;
