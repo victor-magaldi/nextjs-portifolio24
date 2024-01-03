@@ -6,26 +6,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  background-color: var(--color1) ;
   min-height: 100vh;
 }
-.bannerMain{
+.sectionBannerMain{
   width: 100%;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom, #283d3e, #48586f);;
+  background: linear-gradient(to bottom, #283d3e, #48586f);
+}
+.containerTextBannerMain{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .containerTextBannerMain h2,
-.containerTextBannerMain p{
-  color: #d62e2e;
+.containerTextBannerMain h3{
+  color: var(--color3);
   font-weight: bold;
 }
-.containerTextBannerMain p{
+.containerTextBannerMain h3{
   position: relative;
-  top: 20%;  
-  width: 24em;
-  margin: 0 ;
+  margin:  12px 0 ;
   border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -34,7 +38,7 @@
 }
 
 /* Animation */
-.animTypewriter{
+h3.animTypewriter{
   animation: typewriter 8s steps(44) 1s infinite normal both,
            blinkTextCursor 500ms steps(44) infinite normal;
 }
@@ -45,6 +49,14 @@
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
+}
+
+.sectionDescriptionMe{
+  background: linear-gradient(to bottom, #283d3e, #48586f);
+  width: 100%;
+}
+.sectionDescriptionMe p{
+  color: var(--color3);
 }
 .description {
   display: inherit;
