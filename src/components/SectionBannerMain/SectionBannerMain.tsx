@@ -1,4 +1,5 @@
-import styles from "./styles.css"
+// import styles from "../../styles/styles.module.css"
+import styles from "./styles.module.css"
 
 export function SectionBannerMain() {
   return (

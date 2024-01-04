@@ -1,0 +1,56 @@
+.sectionBannerMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #283d3e, #48586f);
+}
+
+.containerTextBannerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.containerTextBannerMain h2,
+.containerTextBannerMain h3 {
+    color: var(--color3);
+    font-weight: bold;
+}
+
+.containerTextBannerMain h3 {
+    position: relative;
+    margin: 12px 0;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    max-width: max-content;
+}
+
+/* Animation */
+h3.animTypewriter {
+    animation: typewriter 8s steps(44) 1s infinite normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
