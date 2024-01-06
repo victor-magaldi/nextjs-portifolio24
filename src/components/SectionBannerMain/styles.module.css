@@ -4,7 +4,10 @@
     justify-content: center;
     background: linear-gradient(to bottom, #283d3e, #48586f);
 }
-
+.sectionBannerMain div {
+    display: flex;
+    justify-content: center;
+}
 .containerTextBannerMain {
     display: flex;
     flex-direction: column;
