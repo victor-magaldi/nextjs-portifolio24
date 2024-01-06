@@ -17,7 +17,13 @@ export function SectionBannerMain() {
           </p>
         </div>
 
-        <img src="https://github.com/victor-magaldi.png" alt="victor-magaldi" />
+        <img
+          src="https://github.com/victor-magaldi.png"
+          alt="victor-magaldi-avatar-image"
+          width={500}
+          height={500}
+          className={styles.imageProfile}
+        />
       </div>
     </section>
   );

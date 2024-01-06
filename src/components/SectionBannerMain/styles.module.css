@@ -1,12 +1,17 @@
 .sectionBannerMain {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 24px 0;
   background: linear-gradient(to bottom, #283d3e, #48586f);
 }
 .sectionBannerMain div {
   display: flex;
   justify-content: center;
+}
+.imageProfile {
+  border-radius: 50%;
+  background: radial-gradient(#1b1b1b, #48586f);
 }
 .containerTextBannerMain {
   display: flex;
