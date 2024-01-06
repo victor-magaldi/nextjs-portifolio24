@@ -9,16 +9,13 @@ export function Header() {
             <a href="/#contact">Sobre Mim</a>
           </li>
           <li>
-            <a href="/#contact">Sobre Mim</a>
+            <a href="/#contact">Habilidades</a>
           </li>
           <li>
-            <a href="/#contact">Sobre Mim</a>
+            <a href="/#contact">Projetos</a>
           </li>
           <li>
-            <a href="/#contact">Sobre Mim</a>
-          </li>
-          <li>
-            <a href="/#contact">Sobre Mim</a>
+            <a href="/#contact">Fale comigo</a>
           </li>
         </ul>
       </div>
