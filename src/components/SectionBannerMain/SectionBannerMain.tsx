@@ -1,3 +1,4 @@
+import { Cta } from "../Cta/Cta";
 import styles from "./styles.module.css";
 
 export function SectionBannerMain() {
@@ -15,6 +16,7 @@ export function SectionBannerMain() {
             Curabitur vitae neque pretium, facilisis velit in, semper leo. Donec
             a varius risus. Curabitur suscipit, quam vel pretium
           </p>
+          <Cta />
         </div>
 
         <img
