@@ -18,5 +18,26 @@
   background-color: var(--color2);
   margin-right: 12px;
 }
-.textMe {
+
+.projects .projectLists {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+.projectCard {
+  background-color: var(--color2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  width: max-content;
+  border: solid #ed1c94 2px;
+}
+
+.projectCard img {
+  width: 250px;
+  height: 250px;
+}
+.projectCard .projectName {
+  margin: 12px 0;
 }
