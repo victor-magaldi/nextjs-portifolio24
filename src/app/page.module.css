@@ -1,21 +1,19 @@
-
 .main {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  background: radial-gradient(to bottom, #283d3e, #48586f);
+  background: radial-gradient(to bottom, #6d0eb1, #48586f);
   min-height: 100vh;
 }
 
-
-.sectionDescriptionMe{
-  background: linear-gradient(to bottom, #283d3e, #48586f);
+.sectionDescriptionMe {
+  background: linear-gradient(to bottom, #6d0eb1, #48586f);
   width: 100%;
 }
-.sectionDescriptionMe p{
+.sectionDescriptionMe p {
   color: var(--color3);
 }
 .description {
@@ -108,7 +106,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);

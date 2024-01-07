@@ -6,7 +6,7 @@
 }
 .header div {
   border-radius: 0px 0px 8px 8px;
-  background: #1b1b1b;
+  background: var(--color2);
   padding: 0 16px;
 }
 .header ul {
