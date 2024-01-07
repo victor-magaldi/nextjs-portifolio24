@@ -21,11 +21,13 @@
 }
 
 .containerTextBannerMain h2 {
-  color: var(--color2);
+  color: var(--color1);
   font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 .containerTextBannerMain h3 {
-  color: var(--color1);
+  color: var(--color2);
   font-weight: bold;
 }
 .containerTextBannerMain h3 {
