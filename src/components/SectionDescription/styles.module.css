@@ -3,6 +3,7 @@
   padding: 32px 0;
   display: flex;
   justify-content: center;
+  background-color: var(--color2);
 }
 .sectionDescriptionMe h2 {
   display: flex;
@@ -17,6 +18,8 @@
   background-color: var(--color1);
   margin-right: 12px;
 }
-.textMe {
+.textMeContainer {
   color: var(--color5);
+  display: flex;
+  justify-content: space-between;
 }

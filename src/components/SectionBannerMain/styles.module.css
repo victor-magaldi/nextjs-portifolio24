@@ -9,10 +9,10 @@
   display: flex;
   justify-content: center;
 }
-.imageProfile {
+/* .imageProfile {
   border-radius: 50%;
   background-color: #6d0eb1;
-}
+} */
 .containerTextBannerMain {
   display: flex;
   flex-direction: column;
