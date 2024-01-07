@@ -22,4 +22,25 @@
   color: var(--color5);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.textMe h3 {
+  color: var(--color1);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+.textMe p {
+  color: black;
+}
+.textMe ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 16px 0;
+}
+.textMe ul li {
+  display: flex;
+  color: var(--color1);
 }
