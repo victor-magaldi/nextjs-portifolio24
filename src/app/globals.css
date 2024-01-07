@@ -1,7 +1,7 @@
 :root {
-  --color1: #ed1c94;
-  --color2: #ffffff;
-  --color5: #6d0eb1;
+  --color1: #0a8465;
+  --color2: #739f93;
+  --color3: #010913;
 
   --max-width: 1100px;
   --border-radius: 12px;
@@ -61,13 +61,13 @@
     --tile-start-rgb: 2, 13, 46;
     --tile-end-rgb: 2, 5, 19;
     --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
+      #739F93f80,
+      #739F93f40,
+      #739F93f30,
+      #739F93f20,
+      #739F93f10,
+      #739F93f10,
+      #739F93f80
     );
 
     --callout-rgb: 20, 20, 20;

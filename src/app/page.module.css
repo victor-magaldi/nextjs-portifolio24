@@ -5,12 +5,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
-  background: radial-gradient(to bottom, #6d0eb1, #48586f);
   min-height: 100vh;
 }
 
 .sectionDescriptionMe {
-  background: linear-gradient(to bottom, #6d0eb1, #48586f);
+  background: var(--color3)
   width: 100%;
 }
 .sectionDescriptionMe p {
@@ -224,7 +223,7 @@
   }
 
   .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+    filter: invert(1) drop-shadow(0 0 0.3rem #739F93f70);
   }
 }
 

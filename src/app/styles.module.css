@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 24px 0;
-  background: var(--color3);
+  background: #739f93;
 }
 .sectionBannerMain div {
   display: flex;

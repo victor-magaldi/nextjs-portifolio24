@@ -2,7 +2,7 @@
   width: 100%;
   height: 70px;
   flex-shrink: 0;
-  background-color: var(--color5);
+  background-color: var(--color3);
 }
 .header div {
   border-radius: 0px 0px 8px 8px;
