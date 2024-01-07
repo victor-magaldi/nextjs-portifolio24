@@ -5,9 +5,9 @@ export function SectionBannerMain() {
     <section className={`${styles.sectionBannerMain}`}>
       <div className="container">
         <div className={styles.containerTextBannerMain}>
-          <h2>Desenvolvedor Fullstack e Arquiteto de Soluções</h2>
+          <h2>Victor Magaldi</h2>
           <h3 className={styles.animTypewriter}>
-            Crio e Desenvolvo as Soluções
+            Desenvolvedor Fullstack e Arquiteto de Soluções
           </h3>
           <p>
             Proin scelerisque massa vel odio elementum, ac vestibulum nisl

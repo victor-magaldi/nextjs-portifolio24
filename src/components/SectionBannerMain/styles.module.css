@@ -39,8 +39,8 @@
 
 /* Animation */
 h3.animTypewriter {
-  animation: typewriter 8s steps(44) 1s infinite normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
+  animation: typewriter 4s steps(44) 1s infinite normal both,
+    blinkTextCursor 300ms steps(44) infinite normal;
 }
 
 @keyframes typewriter {
