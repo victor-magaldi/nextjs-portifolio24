@@ -10,7 +10,7 @@ export function SectionBannerMain() {
           <h3 className={styles.animTypewriter}>
             Desenvolvedor Fullstack e Arquiteto de Soluções
           </h3>
-          <p>
+          <p className={styles.textBanner}>
             Proin scelerisque massa vel odio elementum, ac vestibulum nisl
             vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
             Curabitur vitae neque pretium, facilisis velit in, semper leo. Donec
