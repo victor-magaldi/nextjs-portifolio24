@@ -1,0 +1,51 @@
+.modalContainer {
+  width: 600px;
+  height: 600px;
+}
+
+.modal {
+  background: white;
+  border: solid 2px var(--color1);
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 53, 43, 0.5);
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bodyModal {
+  padding-top: 16px;
+}
+
+.headerModal {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+}
+.closeModal {
+  color: var(--color1);
+  font-size: 32px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}

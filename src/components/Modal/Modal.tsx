@@ -11,21 +11,34 @@ interface ModalInterface {
 }
 
 export function Modal({ setModalOpen, children }: ModalInterface) {
-  const handleCloseClsetModalOpenick = (
-    e: MouseEvent<HTMLButtonElement, globalThis.MouseEvent>
-  ) => {
-    e.preventDefault();
+  const handleClose = () => {
     setModalOpen(false);
   };
 
   const modalContent = (
-    <div className={styles.modalOverlay}>
+    <div
+      className={styles.modalOverlay}
+      onClick={(e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        handleClose();
+      }}
+    >
       <div className={styles.modalContainer}>
         <div className={styles.modal}>
           <div className={styles.headerModal}>
-            <button onClick={handleCloseClsetModalOpenick}>x</button>
+            <button
+              className={styles.closeModal}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation;
+                handleClose();
+              }}
+            >
+              x
+            </button>
           </div>
-          <div className={styles.headerModal}>{children}</div>
+          <div className={styles.bodyModal}>{children}</div>
         </div>
       </div>
     </div>
