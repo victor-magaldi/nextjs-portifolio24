@@ -1,14 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import styles from "./styles.module.css";
 import { useSearchParams } from "next/navigation";
 
 export function SectionProjects() {
-  const searchParams = useSearchParams();
-  const modalOpen = searchParams.get("modalOpen");
-
   return (
-    <section className={styles.projects}>
+    <section className={styles.projects} id="projects">
       <div className="container">
         <h2>Projetos</h2>
         <p>
@@ -22,7 +20,6 @@ export function SectionProjects() {
                 key={String(item)}
                 id={String(item)}
               >
-                {modalOpen === String(item) && <span>Open</span>}
                 <div className={styles.containerProjectCardImg}>
                   <img
                     src="https://placehold.co/250?text=Projeto1"
