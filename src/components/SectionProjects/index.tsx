@@ -1,8 +1,5 @@
-"use client";
-
-import Link from "next/link";
+import { ProjectCard } from "./ProjectCard";
 import styles from "./styles.module.css";
-import { useSearchParams } from "next/navigation";
 
 export function SectionProjects() {
   return (
@@ -14,24 +11,7 @@ export function SectionProjects() {
         </p>
         <div className={styles.projectLists}>
           {Array.from({ length: 12 }, (_, index) => index).map((item) => {
-            return (
-              <div
-                className={styles.projectCard}
-                key={String(item)}
-                id={String(item)}
-              >
-                <div className={styles.containerProjectCardImg}>
-                  <img
-                    src="https://placehold.co/250?text=Projeto1"
-                    className={styles.projectCardImg}
-                    alt="Projeto1"
-                  />
-                </div>
-
-                <h4 className={styles.projectName}>Projeto 1 </h4>
-                <button className="">Ver mais</button>
-              </div>
-            );
+            return <ProjectCard id={item} key={item} />;
           })}
         </div>
       </div>
