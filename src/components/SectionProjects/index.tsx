@@ -12,7 +12,7 @@ export function SectionProjects() {
         <div className={styles.projectLists}>
           {Array.from({ length: 12 }, (_, index) => index).map((item) => {
             return (
-              <div className={styles.projectCard}>
+              <div className={styles.projectCard} key={String(item)}>
                 <div className={styles.containerProjectCardImg}>
                   <img
                     src="https://placehold.co/250?text=Projeto1"
