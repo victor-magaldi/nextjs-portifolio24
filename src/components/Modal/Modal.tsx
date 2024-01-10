@@ -25,7 +25,12 @@ export function Modal({ setModalOpen, children }: ModalInterface) {
       }}
     >
       <div className={styles.modalContainer}>
-        <div className={styles.modal}>
+        <div
+          className={styles.modal}
+          onClick={(e) => {
+            e.stopPropagation();
+          }}
+        >
           <div className={styles.headerModal}>
             <button
               className={styles.closeModal}
