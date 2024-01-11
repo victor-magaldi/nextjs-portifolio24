@@ -1,0 +1,21 @@
+.returnToTop {
+  cursor: pointer;
+  background-color: var(--color1);
+  width: 80px;
+  height: 80px;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--color3);
+  box-shadow: 2px 3px 5px black;
+  filter: brightness(0.95);
+  transition: 0.3s ease-in-out;
+}
+
+.returnToTop:hover {
+  opacity: 1;
+  box-shadow: 2px 3px 5px var(--color1);
+  filter: brightness(1);
+  transform: scale(1.05);
+}

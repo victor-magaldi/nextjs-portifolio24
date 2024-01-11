@@ -1,7 +1,7 @@
 "use-client";
 
 import ReactDOM from "react-dom";
-import { Dispatch, MouseEvent, ReactNode, SetStateAction } from "react";
+import { Dispatch, ReactNode, SetStateAction } from "react";
 
 import styles from "./styles.module.css";
 
