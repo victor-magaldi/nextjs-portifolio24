@@ -4,6 +4,7 @@ import { SectionDescription } from "../components/SectionDescription";
 import { SectionProjects } from "../components/SectionProjects";
 import { SectionSkills } from "../components/SectionSkills";
 import { SectionContact } from "../components/SectionContact";
+import { ScrollToTopButton } from "@/components/ScrollToTop/ScrollToTop";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SectionProjects />
       <SectionSkills />
       <SectionContact />
+      <ScrollToTopButton />
     </main>
   );
 }
