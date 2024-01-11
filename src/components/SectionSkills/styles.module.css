@@ -1,3 +1,19 @@
-.sectionSkills{
-    
+.sectionSkills {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.skillTitle {
+  display: flex;
+  align-items: center;
+  color: var(--color1);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.skillTitle::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color1);
+  margin-right: 12px;
 }

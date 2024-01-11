@@ -6,6 +6,7 @@
   background-color: var(--color4);
 }
 .sectionDescriptionMe h2 {
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   color: var(--color1);

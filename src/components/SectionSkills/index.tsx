@@ -5,7 +5,7 @@ export function SectionSkills() {
   return (
     <section className={styles.sectionSkills}>
       <div className="container">
-        <h2>Habilidades</h2>
+        <h2 className={styles.skillTitle}>Habilidades</h2>
         <div className={styles.textMe}>
           <p>
             Proin scelerisque massa vel odio elementum, ac vestibulum nisl
