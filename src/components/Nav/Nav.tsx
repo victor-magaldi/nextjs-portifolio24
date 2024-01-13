@@ -7,18 +7,24 @@ export function Navigation() {
         <ul className={styles.listLinks}>
           <li className={styles.linkItem}>
             <a href="/#description" className={styles.link}>
-              ICONE
-              <span>Sobre Mim</span>
+              @<span>Sobre Mim</span>
             </a>
           </li>
           <li className={styles.link}>
-            <a href="/#projects">Projetos</a>
+            <a href="/#projects">
+              @<span>Projetos</span>
+            </a>
           </li>
           <li className={styles.link}>
-            <a href="/#skills">Habilidades</a>
+            <a href="/#skills">
+              @<span>Habilidades</span>
+            </a>
           </li>
           <li className={styles.link}>
-            <a href="/#contact">Fale comigo</a>
+            <a href="/#contact">
+              {" "}
+              @<span>Contatos</span>
+            </a>
           </li>
         </ul>
       </div>

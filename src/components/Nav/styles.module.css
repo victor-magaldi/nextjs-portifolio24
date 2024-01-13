@@ -13,21 +13,27 @@
   grid-template-rows: 1fr 1fr 1fr 1fr;
   height: 400px;
 }
-.linkItem {
-  position: relative;
-}
-.linkItem span {
-  /* opacity: 0; */
+.link {
+  background-color: var(--color4);
   display: flex;
-  width: 0;
+  align-items: center;
+  color: var(--color1);
+  border: solid 1px var(--color1);
+  padding: 10px 18px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  height: 56px;
+  width: 56px;
   overflow: hidden;
-  transition: 0.5s ease-in-out;
-  background-color: aqua;
-  transform: translate3d(-100px, 0, 0);
+  transition: 0.3s;
 }
-.linkItem:hover span {
-  opacity: 1;
-  visibility: visible;
-  width: auto;
-  transform: translate3d(0, 0, 0);
+.link:hover {
+  width: 100%;
+  color: var(--color4);
+  background-color: var(--color1);
+}
+.link span {
+  white-space: nowrap;
 }
