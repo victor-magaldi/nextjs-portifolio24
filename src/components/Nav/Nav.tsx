@@ -3,7 +3,7 @@ export function Navigation() {
     <nav>
       <ul>
         <li>
-          <a href="/#summary">Sobre Mim</a>
+          <a href="/#description">Sobre Mim</a>
         </li>
         <li>
           <a href="/#projects">Projetos</a>

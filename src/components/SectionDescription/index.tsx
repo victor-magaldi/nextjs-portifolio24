@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 export function SectionDescription() {
   return (
-    <section className={styles.sectionDescriptionMe}>
+    <section className={styles.sectionDescriptionMe} id="description">
       <div className="container">
         <h2>Sobre mim</h2>
         <p>
