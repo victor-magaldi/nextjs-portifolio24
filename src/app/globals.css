@@ -116,3 +116,9 @@ a {
     color-scheme: dark;
   }
 }
+
+.layout-container-2col {
+  border: solid red 3px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
