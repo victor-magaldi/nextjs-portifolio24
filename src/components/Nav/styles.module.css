@@ -1,1 +1,33 @@
-.
+.navigationContainer {
+  border-right: 1px solid var(--color1);
+}
+.navigationContainer .containerList {
+  height: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listLinks {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 400px;
+}
+.linkItem {
+  position: relative;
+}
+.linkItem span {
+  /* opacity: 0; */
+  display: flex;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  background-color: aqua;
+  transform: translate3d(-100px, 0, 0);
+}
+.linkItem:hover span {
+  opacity: 1;
+  visibility: visible;
+  width: auto;
+  transform: translate3d(0, 0, 0);
+}
