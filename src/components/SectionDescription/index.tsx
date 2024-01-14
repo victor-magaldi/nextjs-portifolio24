@@ -41,6 +41,44 @@ export function SectionDescription() {
             </p>
           </div>
         </div>
+        <h2>Experiências</h2>
+        <div className={styles.contaienrExp}>
+          <div className={styles.itemExp}>
+            <h3>AGÊNCIA M3 - Estagiário Front-end - Vtex</h3>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+          </div>
+          <div className={styles.itemExp}>
+            <h3>AGÊNCIA M3 - Desenvolvedor Front-end - Vtex</h3>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+          </div>
+          <div className={styles.itemExp}>
+            <h3>
+              AVANTI DESENVOLVIMENTO DE SISTEMAS LTDA. - Estagiário Front-end -
+              Vtex
+            </h3>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+          </div>
+          <div className={styles.itemExp}>
+            <h3>Desenvolvedor Fullstack e Arquiteto de Soluções</h3>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

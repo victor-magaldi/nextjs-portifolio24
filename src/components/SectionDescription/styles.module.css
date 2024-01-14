@@ -45,3 +45,11 @@
   display: flex;
   color: var(--color1);
 }
+
+.contaienrExp {
+  border: solid red 1px;
+}
+
+.itemExp {
+  border: solid red 1px;
+}
