@@ -47,9 +47,36 @@
 }
 
 .contaienrExp {
-  border: solid red 1px;
 }
 
 .itemExp {
-  border: solid red 1px;
+  border-left: solid var(--color1) 3px;
+  margin-bottom: 12px;
+  padding-left: 12px;
+  position: relative;
+}
+.itemExp::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  border: solid var(--color1) 3px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.itemExp::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -8px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  border: solid var(--color1) 3px;
+  background-color: #fff;
+  border-radius: 50%;
 }

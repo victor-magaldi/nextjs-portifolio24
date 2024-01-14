@@ -44,15 +44,42 @@ export function SectionDescription() {
         <h2>Experiências</h2>
         <div className={styles.contaienrExp}>
           <div className={styles.itemExp}>
-            <h3>AGÊNCIA M3 - Estagiário Front-end - Vtex</h3>
+            <h3>AGÊNCIA M3 - (2020) - Estagiário Front-end - Vtex</h3>
             <p>
               Proin scelerisque massa vel odio elementum, ac vestibulum nisl
               vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
               Curabitur vitae neque pretium, facilisis velit in, semper leo.
             </p>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Projeto X</strong>
+                </p>
+                <p>
+                  Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+                  vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+                  Curabitur vitae neque pretium, facilisis velit in, semper leo.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Projeto X</strong>
+                </p>
+                <p>
+                  Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+                  vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+                  Curabitur vitae neque pretium, facilisis velit in, semper leo.
+                </p>
+              </li>
+            </ul>
           </div>
           <div className={styles.itemExp}>
-            <h3>AGÊNCIA M3 - Desenvolvedor Front-end - Vtex</h3>
+            <h3>AGÊNCIA M3 - (2020) - Desenvolvedor Front-end - Vtex</h3>
             <p>
               Proin scelerisque massa vel odio elementum, ac vestibulum nisl
               vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
@@ -61,8 +88,8 @@ export function SectionDescription() {
           </div>
           <div className={styles.itemExp}>
             <h3>
-              AVANTI DESENVOLVIMENTO DE SISTEMAS LTDA. - Estagiário Front-end -
-              Vtex
+              AVANTI DESENVOLVIMENTO DE SISTEMAS LTDA.- (2021) - Desenvolvedor
+              Fullstack - Vtex
             </h3>
             <p>
               Proin scelerisque massa vel odio elementum, ac vestibulum nisl
@@ -71,7 +98,20 @@ export function SectionDescription() {
             </p>
           </div>
           <div className={styles.itemExp}>
-            <h3>Desenvolvedor Fullstack e Arquiteto de Soluções</h3>
+            <h3>
+              AVANTI DESENVOLVIMENTO DE SISTEMAS LTDA.- (2022) - Techlead - Vtex
+            </h3>
+            <p>
+              Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+              vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
+              Curabitur vitae neque pretium, facilisis velit in, semper leo.
+            </p>
+          </div>
+          <div className={styles.itemExp}>
+            <h3>
+              ACCT by Quality - (2022 e atualmente). - Arquitetos de Soluções -
+              Vtex
+            </h3>
             <p>
               Proin scelerisque massa vel odio elementum, ac vestibulum nisl
               vehicula. Vestibulum eleifend mollis nulla, vel semper nisl.
