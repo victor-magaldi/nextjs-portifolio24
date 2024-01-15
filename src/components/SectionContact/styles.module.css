@@ -1,3 +1,18 @@
-.contacts{
-    
+.sectionContact {
+}
+
+.contactTitle {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color1);
+}
+.contactTitle::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: var(--color1);
+  margin-right: 12px;
 }

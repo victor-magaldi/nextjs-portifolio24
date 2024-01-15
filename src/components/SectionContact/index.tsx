@@ -3,9 +3,9 @@ import styles from "./styles.module.css";
 
 export function SectionContact() {
   return (
-    <section className={styles.contacts} id="contact">
+    <section className={styles.sectionContact} id="contact">
       <div className="container">
-        <h2>Contatos</h2>
+        <h2 className={styles.contactTitle}>Contatos</h2>
       </div>
     </section>
   );
