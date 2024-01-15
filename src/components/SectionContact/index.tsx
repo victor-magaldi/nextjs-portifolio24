@@ -6,6 +6,10 @@ export function SectionContact() {
     <section className={styles.sectionContact} id="contact">
       <div className="container">
         <h2 className={styles.contactTitle}>Contatos</h2>
+        <p className={styles.contactMessage}>
+          Proin scelerisque massa vel odio elementum, ac vestibulum nisl
+          vehicula.
+        </p>
       </div>
     </section>
   );
