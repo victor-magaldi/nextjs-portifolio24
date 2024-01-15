@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { FormContact } from "./FormContact";
 
 export function SectionContact() {
   return (
@@ -10,6 +11,8 @@ export function SectionContact() {
           Proin scelerisque massa vel odio elementum, ac vestibulum nisl
           vehicula.
         </p>
+
+        <FormContact />
       </div>
     </section>
   );

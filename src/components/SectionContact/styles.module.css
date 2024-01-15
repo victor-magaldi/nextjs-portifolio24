@@ -23,4 +23,55 @@
 .contactMessage {
   font-size: 14px;
   color: var(--color2);
+  margin-bottom: 16px;
+}
+
+.formContact {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 8px;
+  background-color: #fff;
+  border: solid 2px var(--color1);
+  padding: 16px;
+  width: 560px;
+}
+
+.inputText {
+  border: solid 2px var(--color1);
+  padding: 8px;
+  font-size: 14px;
+}
+.inputTextArea {
+  border: solid 2px var(--color1);
+  padding: 8px;
+  font-size: 14px;
+  max-height: 400px;
+  height: 150px;
+}
+
+.btnSubmit {
+  cursor: pointer;
+  background-color: #fff;
+  position: relative;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: var(--color1);
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid var(--color1);
+  transition: 0.3s ease-in-out;
+}
+
+.btnSubmit:hover {
+  background-color: var(--color1);
+  color: #fff;
+  /* box-shadow: 0 0 5px var(--color1), 0 0 25px var(--color1),
+    0 0 50px var(--color1), 0 0 200px var(--color1); */
 }
