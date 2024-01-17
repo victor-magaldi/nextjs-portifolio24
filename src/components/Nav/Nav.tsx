@@ -1,3 +1,7 @@
+import { FaHome, FaTools } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
+import { IoMdContact } from "react-icons/io";
+
 import styles from "./styles.module.css";
 
 export function Navigation() {
@@ -5,25 +9,28 @@ export function Navigation() {
     <nav className={styles.navigationContainer}>
       <div className={styles.containerList}>
         <ul className={styles.listLinks}>
-          <li className={styles.linkItem}>
-            <a href="/#description" className={styles.link}>
-              @<span>Sobre Mim</span>
+          <li className={styles.link}>
+            <a href="/#description">
+              <FaHome size={30} color={"#0a8465"} />
+              <span>Sobre</span>
             </a>
           </li>
           <li className={styles.link}>
             <a href="/#projects">
-              @<span>Projetos</span>
+              <FaTools size={30} color={"#0a8465"} />
+              <span>Projetos</span>
             </a>
           </li>
           <li className={styles.link}>
             <a href="/#skills">
-              @<span>Habilidades</span>
+              <GiSkills size={30} color={"#0a8465"} />
+              <span>Habilidades</span>
             </a>
           </li>
           <li className={styles.link}>
             <a href="/#contact">
-              {" "}
-              @<span>Contatos</span>
+              <IoMdContact size={30} color={"#0a8465"} />
+              <span>Contatos</span>
             </a>
           </li>
         </ul>

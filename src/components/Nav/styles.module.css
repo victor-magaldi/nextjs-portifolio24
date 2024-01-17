@@ -19,7 +19,7 @@
   align-items: center;
   color: var(--color1);
   border: solid 1px var(--color1);
-  padding: 10px 18px;
+  padding: 8px 12px;
   margin-bottom: 8px;
   font-size: 15px;
   border-radius: 50px;
@@ -36,4 +36,20 @@
 }
 .link span {
   white-space: nowrap;
+}
+.link a {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link svg {
+  transition: 0.3s;
+  margin-right: 12px;
+}
+
+.link:hover svg {
+  color: #fff;
+  fill: #fff;
+  stroke: #fff;
 }
