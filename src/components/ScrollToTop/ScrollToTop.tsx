@@ -1,5 +1,6 @@
 "use client";
 import styles from "./styles.module.css";
+import { FaArrowUp } from "react-icons/fa";
 
 export function ScrollToTopButton() {
   const isBrowser = () => typeof window !== "undefined"; //The approach recommended by Next.js
@@ -10,7 +11,7 @@ export function ScrollToTopButton() {
   }
   return (
     <button className={styles.returnToTop} onClick={scrollToTop}>
-      para o alto
+      <FaArrowUp size={40} color="#fff" />
     </button>
   );
 }
